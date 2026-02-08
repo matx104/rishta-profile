@@ -21,7 +21,7 @@ function updateThemeIcon(theme) {
 }
 
 // ─── SPA Router ───
-const pages = ['home', 'about', 'career', 'personality', 'philosophy', 'projects', 'vision', 'looking-for', 'qualities', 'questions', 'gallery', 'contact'];
+const pages = ['home', 'about', 'deen', 'dunya', 'career', 'personality', 'philosophy', 'projects', 'vision', 'naseeb', 'qualities', 'questions', 'gallery', 'contact'];
 
 function navigateTo(page) {
   // Hide all pages
@@ -51,12 +51,14 @@ function navigateTo(page) {
   const titles = {
     'home': 'Muhammad Abdullah Tariq — Rishta Profile',
     'about': 'About — Muhammad Abdullah Tariq',
+    'deen': 'Deen — Muhammad Abdullah Tariq',
+    'dunya': 'Dunya — Muhammad Abdullah Tariq',
     'career': 'Career — Muhammad Abdullah Tariq',
     'personality': 'Personality — Muhammad Abdullah Tariq',
     'philosophy': 'Philosophy — Muhammad Abdullah Tariq',
     'projects': 'Projects — Muhammad Abdullah Tariq',
     'vision': 'Vision — Muhammad Abdullah Tariq',
-    'looking-for': 'Looking For — Muhammad Abdullah Tariq',
+    'naseeb': 'Naseeb — Muhammad Abdullah Tariq',
     'qualities': 'Qualities — Muhammad Abdullah Tariq',
     'questions': 'Questions — Muhammad Abdullah Tariq',
     'gallery': 'Gallery — Muhammad Abdullah Tariq',

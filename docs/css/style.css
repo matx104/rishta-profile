@@ -71,7 +71,7 @@ body {
 }
 
 /* ─── Light Mode Enhancements ─── */
-:root body {
+:root:not([data-theme="dark"]) body {
   background:
     radial-gradient(ellipse at 15% 10%, rgba(15,61,54,0.06) 0%, transparent 50%),
     radial-gradient(ellipse at 85% 90%, rgba(197,152,30,0.04) 0%, transparent 50%),
@@ -370,7 +370,7 @@ body::after {
   transition: all var(--transition);
 }
 
-:root .stat-card {
+:root:not([data-theme="dark"]) .stat-card {
   background: linear-gradient(145deg, rgba(255,255,255,0.9), rgba(228,234,228,0.6));
   box-shadow: 0 4px 16px rgba(15,61,54,0.08), inset 0 1px 0 rgba(255,255,255,0.9);
 }
@@ -422,7 +422,7 @@ body::after {
   color: white;
 }
 
-:root .btn-primary {
+:root:not([data-theme="dark"]) .btn-primary {
   box-shadow: 0 4px 16px rgba(15,61,54,0.25);
 }
 
@@ -453,7 +453,7 @@ body::after {
   background: var(--bg-section);
 }
 
-:root .section:nth-child(even) {
+:root:not([data-theme="dark"]) .section:nth-child(even) {
   background: linear-gradient(180deg, #e4eae4 0%, #dce4dc 50%, #e4eae4 100%);
   border-top: 1px solid rgba(15,61,54,0.06);
   border-bottom: 1px solid rgba(15,61,54,0.06);
@@ -476,7 +476,7 @@ body::after {
   margin-bottom: 12px;
 }
 
-:root .section-header h2 {
+:root:not([data-theme="dark"]) .section-header h2 {
   text-shadow: 0 1px 2px rgba(15,61,54,0.08);
 }
 
@@ -509,7 +509,7 @@ body::after {
   overflow: hidden;
 }
 
-:root .card {
+:root:not([data-theme="dark"]) .card {
   background: linear-gradient(145deg, rgba(255,255,255,0.85), rgba(240,242,236,0.65));
   border: 1px solid rgba(15,61,54,0.12);
   box-shadow: 0 4px 20px rgba(15,61,54,0.08), 0 1px 3px rgba(15,61,54,0.06), inset 0 1px 0 rgba(255,255,255,0.8);
@@ -619,7 +619,7 @@ body::after {
   border: 1px solid var(--border);
 }
 
-:root .info-table {
+:root:not([data-theme="dark"]) .info-table {
   box-shadow: 0 2px 12px rgba(15,61,54,0.06);
   background: rgba(255,255,255,0.6);
 }
@@ -718,7 +718,7 @@ body::after {
   border: 1px solid var(--border);
 }
 
-:root .badge {
+:root:not([data-theme="dark"]) .badge {
   background: linear-gradient(135deg, rgba(228,234,228,0.8), rgba(255,255,255,0.6));
   box-shadow: 0 1px 4px rgba(15,61,54,0.08);
 }
@@ -754,7 +754,7 @@ body::after {
   box-shadow: -4px 0 20px rgba(212,175,55,0.08);
 }
 
-:root .quote-block {
+:root:not([data-theme="dark"]) .quote-block {
   background: linear-gradient(135deg, rgba(228,234,228,0.8), rgba(255,255,255,0.7));
   box-shadow: -4px 0 20px rgba(197,152,30,0.12), 0 2px 12px rgba(15,61,54,0.05);
 }
@@ -925,7 +925,7 @@ body::after {
   transition: all var(--transition);
 }
 
-:root .sport-item {
+:root:not([data-theme="dark"]) .sport-item {
   background: linear-gradient(145deg, rgba(255,255,255,0.85), rgba(228,234,228,0.5));
   box-shadow: 0 2px 10px rgba(15,61,54,0.06);
 }
@@ -965,7 +965,7 @@ body::after {
   border-radius: var(--radius-sm);
 }
 
-:root .value-item {
+:root:not([data-theme="dark"]) .value-item {
   background: linear-gradient(145deg, rgba(255,255,255,0.85), rgba(228,234,228,0.5));
   box-shadow: 0 2px 8px rgba(15,61,54,0.05);
 }
@@ -1005,7 +1005,7 @@ body::after {
   overflow: hidden;
 }
 
-:root .cert-card {
+:root:not([data-theme="dark"]) .cert-card {
   background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(228,234,228,0.7));
   box-shadow: 0 4px 20px rgba(197,152,30,0.12), 0 1px 4px rgba(15,61,54,0.06);
 }
@@ -1062,7 +1062,7 @@ body::after {
   transition: all var(--transition);
 }
 
-:root .offer-item {
+:root:not([data-theme="dark"]) .offer-item {
   background: linear-gradient(145deg, rgba(255,255,255,0.85), rgba(240,242,236,0.6));
   box-shadow: 0 2px 10px rgba(15,61,54,0.06);
 }
@@ -1105,7 +1105,7 @@ body::after {
   position: relative;
 }
 
-:root .step-card {
+:root:not([data-theme="dark"]) .step-card {
   background: linear-gradient(145deg, rgba(255,255,255,0.9), rgba(228,234,228,0.55));
   box-shadow: 0 4px 16px rgba(15,61,54,0.07);
 }
@@ -1225,7 +1225,7 @@ body::after {
   box-shadow: var(--shadow), -4px 0 20px rgba(212,175,55,0.1);
 }
 
-:root .project-featured {
+:root:not([data-theme="dark"]) .project-featured {
   box-shadow: 0 4px 20px rgba(15,61,54,0.08), -4px 0 20px rgba(197,152,30,0.15);
 }
 
