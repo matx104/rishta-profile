@@ -220,11 +220,12 @@ function initMonarchParticles() {
         ctx.quadraticCurveTo(v.points[i].x, v.points[i].y + shift, xc, yc);
       }
       const colors = {
-        gold: dark ? 'rgba(212,175,55,' : 'rgba(180,145,35,',
-        silver: dark ? 'rgba(168,178,188,' : 'rgba(140,150,160,',
+        gold: dark ? 'rgba(212,175,55,' : 'rgba(160,120,20,',
+        silver: dark ? 'rgba(168,178,188,' : 'rgba(110,120,130,',
         obsidian: dark ? 'rgba(200,200,200,' : 'rgba(10,10,10,'
       };
-      ctx.strokeStyle = colors[v.type] + (v.opacity * (0.8 + Math.sin(time * 0.001 + v.offset) * 0.2)) + ')';
+      const veinOpacity = v.opacity * (dark ? 1 : 1.8) * (0.8 + Math.sin(time * 0.001 + v.offset) * 0.2);
+      ctx.strokeStyle = colors[v.type] + veinOpacity + ')';
       ctx.lineWidth = v.width;
       ctx.stroke();
     });
@@ -242,9 +243,9 @@ function initMonarchParticles() {
 
       const glow = 0.3 + Math.sin(p.pulse) * 0.2;
       const colors = {
-        gold: dark ? `rgba(212,175,55,${glow})` : `rgba(180,145,35,${glow * 0.5})`,
-        silver: dark ? `rgba(176,184,193,${glow * 0.8})` : `rgba(140,150,160,${glow * 0.4})`,
-        emerald: dark ? `rgba(46,204,113,${glow * 0.7})` : `rgba(15,61,54,${glow * 0.3})`
+        gold: dark ? `rgba(212,175,55,${glow})` : `rgba(170,130,20,${glow * 0.85})`,
+        silver: dark ? `rgba(176,184,193,${glow * 0.8})` : `rgba(120,130,140,${glow * 0.7})`,
+        emerald: dark ? `rgba(46,204,113,${glow * 0.7})` : `rgba(15,61,54,${glow * 0.6})`
       };
 
       ctx.beginPath();
@@ -256,9 +257,9 @@ function initMonarchParticles() {
       if (p.r > 1.2) {
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r * 3, 0, Math.PI * 2);
-        const glowColor = p.type === 'gold' ? `rgba(212,175,55,${glow * 0.08})` :
-                          p.type === 'silver' ? `rgba(176,184,193,${glow * 0.06})` :
-                          `rgba(46,204,113,${glow * 0.06})`;
+        const glowColor = p.type === 'gold' ? `rgba(197,152,30,${glow * (dark ? 0.08 : 0.12)})` :
+                          p.type === 'silver' ? `rgba(140,150,160,${glow * (dark ? 0.06 : 0.10)})` :
+                          `rgba(15,61,54,${glow * (dark ? 0.06 : 0.10)})`;
         ctx.fillStyle = glowColor;
         ctx.fill();
       }

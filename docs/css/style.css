@@ -3,24 +3,24 @@
   --primary: #0F3D36;
   --primary-light: #145248;
   --primary-lighter: #1a7a5a;
-  --accent: #d4af37;
-  --accent-light: #e6c55a;
-  --accent-glow: rgba(212,175,55,0.3);
-  --silver: #b0b8c1;
-  --silver-light: #d0d6dc;
+  --accent: #c5981e;
+  --accent-light: #d4a82e;
+  --accent-glow: rgba(197,152,30,0.35);
+  --silver: #8a94a0;
+  --silver-light: #b0b8c1;
   --obsidian: #0a0a0a;
-  --bg: #f6f7f4;
-  --bg-card: rgba(255,255,255,0.85);
+  --bg: #f0f2ec;
+  --bg-card: rgba(255,255,255,0.72);
   --bg-dark: #060806;
-  --bg-section: #ecf0ec;
+  --bg-section: #e4eae4;
   --text: #0e1410;
-  --text-light: #2e3e34;
-  --text-muted: #6a7a70;
-  --border: rgba(15,61,54,0.15);
-  --shadow: 0 4px 24px rgba(15,61,54,0.12);
-  --shadow-hover: 0 12px 40px rgba(15,61,54,0.22);
-  --glow-emerald: 0 0 20px rgba(15,61,54,0.3);
-  --glow-gold: 0 0 20px rgba(212,175,55,0.25);
+  --text-light: #263830;
+  --text-muted: #5a6e60;
+  --border: rgba(15,61,54,0.18);
+  --shadow: 0 4px 24px rgba(15,61,54,0.10), 0 1px 4px rgba(15,61,54,0.08);
+  --shadow-hover: 0 16px 48px rgba(15,61,54,0.18), 0 0 20px rgba(212,175,55,0.08);
+  --glow-emerald: 0 0 24px rgba(15,61,54,0.25);
+  --glow-gold: 0 0 24px rgba(197,152,30,0.22);
   --radius: 16px;
   --radius-sm: 10px;
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -70,6 +70,19 @@ body {
   transition: background var(--transition), color var(--transition);
 }
 
+/* ─── Light Mode Enhancements ─── */
+:root body {
+  background:
+    radial-gradient(ellipse at 15% 10%, rgba(15,61,54,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 90%, rgba(197,152,30,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(176,184,193,0.03) 0%, transparent 40%),
+    var(--bg);
+}
+
+[data-theme="dark"] body {
+  background: var(--bg);
+}
+
 /* ─── Animated Particle Canvas ─── */
 #monarch-canvas {
   position: fixed;
@@ -101,15 +114,15 @@ body::before {
       0deg,
       transparent,
       transparent 2px,
-      rgba(15,61,54,0.015) 2px,
-      rgba(15,61,54,0.015) 4px
+      rgba(15,61,54,0.025) 2px,
+      rgba(15,61,54,0.025) 4px
     ),
     repeating-linear-gradient(
       90deg,
       transparent,
       transparent 2px,
-      rgba(15,61,54,0.01) 2px,
-      rgba(15,61,54,0.01) 4px
+      rgba(15,61,54,0.018) 2px,
+      rgba(15,61,54,0.018) 4px
     );
 }
 
@@ -141,13 +154,17 @@ body::after {
   height: 100%;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.04;
+  opacity: 0.07;
   background:
     linear-gradient(137deg, transparent 40%, rgba(212,175,55,0.6) 40.5%, transparent 41%),
     linear-gradient(217deg, transparent 55%, rgba(176,184,193,0.4) 55.3%, transparent 55.6%),
     linear-gradient(127deg, transparent 70%, rgba(212,175,55,0.3) 70.2%, transparent 70.5%),
     linear-gradient(317deg, transparent 25%, rgba(10,10,10,0.5) 25.2%, transparent 25.5%),
     linear-gradient(157deg, transparent 80%, rgba(176,184,193,0.3) 80.3%, transparent 80.6%);
+}
+
+[data-theme="dark"] body::after {
+  opacity: 0.04;
 }
 
 /* ─── Navigation ─── */
@@ -157,10 +174,11 @@ body::after {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(246,247,244,0.75);
+  background: rgba(240,242,236,0.8);
   backdrop-filter: blur(24px) saturate(180%);
   -webkit-backdrop-filter: blur(24px) saturate(180%);
   border-bottom: 1px solid var(--border);
+  box-shadow: 0 1px 12px rgba(15,61,54,0.06);
   transition: all var(--transition);
 }
 
@@ -279,10 +297,18 @@ body::after {
   width: 200%;
   height: 200%;
   background:
+    radial-gradient(ellipse at 20% 30%, rgba(15,61,54,0.18) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 70%, rgba(197,152,30,0.10) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(176,184,193,0.08) 0%, transparent 40%),
+    radial-gradient(ellipse at 70% 20%, rgba(15,61,54,0.06) 0%, transparent 35%);
+  animation: heroFloat 20s ease-in-out infinite;
+}
+
+[data-theme="dark"] .hero::before {
+  background:
     radial-gradient(ellipse at 20% 30%, rgba(15,61,54,0.12) 0%, transparent 50%),
     radial-gradient(ellipse at 80% 70%, rgba(212,175,55,0.06) 0%, transparent 50%),
     radial-gradient(ellipse at 50% 50%, rgba(176,184,193,0.04) 0%, transparent 40%);
-  animation: heroFloat 20s ease-in-out infinite;
 }
 
 @keyframes heroFloat {
@@ -344,6 +370,11 @@ body::after {
   transition: all var(--transition);
 }
 
+:root .stat-card {
+  background: linear-gradient(145deg, rgba(255,255,255,0.9), rgba(228,234,228,0.6));
+  box-shadow: 0 4px 16px rgba(15,61,54,0.08), inset 0 1px 0 rgba(255,255,255,0.9);
+}
+
 .stat-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-hover), var(--glow-emerald);
@@ -391,6 +422,10 @@ body::after {
   color: white;
 }
 
+:root .btn-primary {
+  box-shadow: 0 4px 16px rgba(15,61,54,0.25);
+}
+
 .btn-primary:hover {
   background: var(--primary-light);
   transform: translateY(-2px);
@@ -418,6 +453,12 @@ body::after {
   background: var(--bg-section);
 }
 
+:root .section:nth-child(even) {
+  background: linear-gradient(180deg, #e4eae4 0%, #dce4dc 50%, #e4eae4 100%);
+  border-top: 1px solid rgba(15,61,54,0.06);
+  border-bottom: 1px solid rgba(15,61,54,0.06);
+}
+
 .section-inner {
   max-width: 1000px;
   margin: 0 auto;
@@ -433,6 +474,10 @@ body::after {
   color: var(--primary);
   font-weight: 700;
   margin-bottom: 12px;
+}
+
+:root .section-header h2 {
+  text-shadow: 0 1px 2px rgba(15,61,54,0.08);
 }
 
 .section-header p {
@@ -462,6 +507,12 @@ body::after {
   transition: all var(--transition);
   position: relative;
   overflow: hidden;
+}
+
+:root .card {
+  background: linear-gradient(145deg, rgba(255,255,255,0.85), rgba(240,242,236,0.65));
+  border: 1px solid rgba(15,61,54,0.12);
+  box-shadow: 0 4px 20px rgba(15,61,54,0.08), 0 1px 3px rgba(15,61,54,0.06), inset 0 1px 0 rgba(255,255,255,0.8);
 }
 
 .card::before {
@@ -568,6 +619,11 @@ body::after {
   border: 1px solid var(--border);
 }
 
+:root .info-table {
+  box-shadow: 0 2px 12px rgba(15,61,54,0.06);
+  background: rgba(255,255,255,0.6);
+}
+
 .info-table tr {
   transition: background var(--transition);
 }
@@ -662,6 +718,11 @@ body::after {
   border: 1px solid var(--border);
 }
 
+:root .badge {
+  background: linear-gradient(135deg, rgba(228,234,228,0.8), rgba(255,255,255,0.6));
+  box-shadow: 0 1px 4px rgba(15,61,54,0.08);
+}
+
 .badge-gold {
   background: linear-gradient(135deg, #f5e6c8, #d4af37);
   color: #3a2a08;
@@ -691,6 +752,11 @@ body::after {
   margin: 24px 0;
   position: relative;
   box-shadow: -4px 0 20px rgba(212,175,55,0.08);
+}
+
+:root .quote-block {
+  background: linear-gradient(135deg, rgba(228,234,228,0.8), rgba(255,255,255,0.7));
+  box-shadow: -4px 0 20px rgba(197,152,30,0.12), 0 2px 12px rgba(15,61,54,0.05);
 }
 
 .quote-block::before {
@@ -859,6 +925,11 @@ body::after {
   transition: all var(--transition);
 }
 
+:root .sport-item {
+  background: linear-gradient(145deg, rgba(255,255,255,0.85), rgba(228,234,228,0.5));
+  box-shadow: 0 2px 10px rgba(15,61,54,0.06);
+}
+
 .sport-item:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow), var(--glow-emerald);
@@ -894,6 +965,11 @@ body::after {
   border-radius: var(--radius-sm);
 }
 
+:root .value-item {
+  background: linear-gradient(145deg, rgba(255,255,255,0.85), rgba(228,234,228,0.5));
+  box-shadow: 0 2px 8px rgba(15,61,54,0.05);
+}
+
 .value-item .emoji {
   font-size: 1.5rem;
   flex-shrink: 0;
@@ -927,6 +1003,11 @@ body::after {
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+
+:root .cert-card {
+  background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(228,234,228,0.7));
+  box-shadow: 0 4px 20px rgba(197,152,30,0.12), 0 1px 4px rgba(15,61,54,0.06);
 }
 
 .cert-card::before {
@@ -981,6 +1062,11 @@ body::after {
   transition: all var(--transition);
 }
 
+:root .offer-item {
+  background: linear-gradient(145deg, rgba(255,255,255,0.85), rgba(240,242,236,0.6));
+  box-shadow: 0 2px 10px rgba(15,61,54,0.06);
+}
+
 .offer-item:hover {
   border-color: var(--accent);
   box-shadow: var(--shadow), var(--glow-gold);
@@ -1017,6 +1103,11 @@ body::after {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   position: relative;
+}
+
+:root .step-card {
+  background: linear-gradient(145deg, rgba(255,255,255,0.9), rgba(228,234,228,0.55));
+  box-shadow: 0 4px 16px rgba(15,61,54,0.07);
 }
 
 .step-number {
@@ -1132,6 +1223,10 @@ body::after {
 .project-featured {
   border-left: 4px solid var(--accent);
   box-shadow: var(--shadow), -4px 0 20px rgba(212,175,55,0.1);
+}
+
+:root .project-featured {
+  box-shadow: 0 4px 20px rgba(15,61,54,0.08), -4px 0 20px rgba(197,152,30,0.15);
 }
 
 /* ─── Print ─── */
