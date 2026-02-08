@@ -21,7 +21,7 @@ function updateThemeIcon(theme) {
 }
 
 // ─── SPA Router ───
-const pages = ['home', 'about', 'career', 'personality', 'looking-for', 'contact'];
+const pages = ['home', 'about', 'career', 'personality', 'looking-for', 'gallery', 'contact'];
 
 function navigateTo(page) {
   // Hide all pages
@@ -45,6 +45,8 @@ function navigateTo(page) {
   history.pushState(null, '', `#${page}`);
   // Scroll to top
   window.scrollTo({ top: 0, behavior: 'smooth' });
+  // Load gallery if navigating to gallery page
+  if (page === 'gallery') loadGallery();
   // Update page title
   const titles = {
     'home': 'Muhammad Abdullah Tariq — Rishta Profile',
@@ -52,6 +54,7 @@ function navigateTo(page) {
     'career': 'Career — Muhammad Abdullah Tariq',
     'personality': 'Personality — Muhammad Abdullah Tariq',
     'looking-for': 'Looking For — Muhammad Abdullah Tariq',
+    'gallery': 'Gallery — Muhammad Abdullah Tariq',
     'contact': 'Contact — Muhammad Abdullah Tariq'
   };
   document.title = titles[page] || titles['home'];
@@ -96,6 +99,53 @@ function animateNumbers() {
       el.textContent = current + suffix;
     }, 30);
   });
+}
+
+// ─── Gallery Loader ───
+function loadGallery() {
+  const grid = document.getElementById('gallery-grid');
+  const empty = document.getElementById('gallery-empty');
+  if (!grid) return;
+
+  const extensions = ['jpeg', 'jpg', 'png', 'webp'];
+  const maxPhotos = 50;
+  let loaded = 0;
+
+  grid.innerHTML = '';
+
+  for (let i = 1; i <= maxPhotos; i++) {
+    for (const ext of extensions) {
+      const img = new Image();
+      const src = `photos/${i}.${ext}`;
+      img.src = src;
+      img.alt = `Photo ${i}`;
+      img.loading = 'lazy';
+      img.className = 'gallery-item';
+      img.onload = () => {
+        grid.appendChild(img);
+        loaded++;
+        empty.style.display = 'none';
+        img.addEventListener('click', () => openLightbox(img.src, img.alt));
+      };
+      // Only try one extension per number (first one that loads wins)
+      img.onerror = () => {};
+    }
+  }
+
+  // Show empty message if no photos loaded after a short delay
+  setTimeout(() => {
+    if (loaded === 0) {
+      empty.style.display = 'block';
+    }
+  }, 1500);
+}
+
+function openLightbox(src, alt) {
+  const overlay = document.createElement('div');
+  overlay.className = 'lightbox-overlay';
+  overlay.innerHTML = `<img src="${src}" alt="${alt}"><span class="lightbox-close">&times;</span>`;
+  overlay.addEventListener('click', () => overlay.remove());
+  document.body.appendChild(overlay);
 }
 
 // ─── Init ───
