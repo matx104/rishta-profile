@@ -134,6 +134,15 @@ Alhamdulillah, I come from a respected, religious, and family-oriented household
 
 **Verification:** All certifications are independently verifiable on [Credly](https://credly.com/users/matx104)
 
+### 🎯 Certification Roadmap — Future Targets
+
+| Category | Certifications |
+|---|---|
+| **ISACA (GRC)** | CISA • CISM • CRISC • CGEIT |
+| **Offensive Security** | CEH • OSCP • OSWE • GPEN |
+| **Cisco Networking** | CCNA • CCNP Security • CCIE Security |
+| **Cloud Security** | AWS Security Specialty • Azure Security Engineer • GCP Security Engineer • CKS |
+
 ---
 
 ## 💼 PROFESSIONAL JOURNEY
@@ -169,6 +178,14 @@ One of the select few professionals **certified across all three major cloud pla
 - Currently leading a flagship **client-side monitoring project** spanning 23 sites across 5 high-priority enterprise clients — demonstrating end-to-end ownership from technical design to stakeholder delivery
 - **Mentors junior engineers** and drives team capability development
 
+### 🎯 Current Focus
+
+- 🔐 **Mastering:** Terraform for Infrastructure as Code, Ansible for Configuration Management
+- ☸️ **Deepening:** Kubernetes Security, Service Mesh (Istio/Linkerd), and Cloud-Native Security
+- ☁️ **Architecting:** Multi-cloud strategies across AWS, GCP, and Azure
+- 🛡️ **Specializing:** Red Team, Blue Team, and Purple Team operations
+- 🌱 **Learning:** Advanced threat modeling, zero-trust architecture, and SBOM
+
 ### Career Vision
 
 > *I believe in **building systems that outlast me** — my philosophy is to create self-sustaining infrastructure and processes so robust that they run without intervention. This mindset of "making myself redundant" drives me to automate, document, and architect at the highest level.*
@@ -180,6 +197,49 @@ One of the select few professionals **certified across all three major cloud pla
 - 📚 **Continuous Growth:** Endless opportunities to learn cutting-edge technologies
 - 🎯 **Problem Solving:** Every day brings new challenges and creative solutions
 - 🤝 **Halal Income:** Earned through honest work, expertise, and dedication
+
+### 🏆 Awards & Recognition
+
+**Professional & Academic:**
+- 🏆 Award of Excellence — Youngest CISSP Graduate
+- 🌟 Future Leader Award (Champions of Tomorrow) 2024
+- ⭐ Star Class Representative 2024
+- 🏅 Award of Appreciation — 3 Years of Service
+- 🥈 2nd Position — Debate Competition
+- 🥈 2nd Place — Ethical Hacking Competition
+- 🥉 3rd Position — ILMA University Annual Techno Quiz
+
+**Community & Sports:**
+- ⭐ Star Volunteer — ILMA University International Media Conference
+- 🥇 1st Place — ILMA World Fusion Fest (Team Pakistan)
+- 🥇 1st Position — World Fusion Fest Futsal Tournament
+- 🎓 Dar ul Quran Kuwait Graduate (Islamic Sciences)
+- 📖 Hafiz-ul-Quran (Kuwait)
+
+### 🛠️ Technical Arsenal
+
+**Cloud & Infrastructure:** AWS • Azure • GCP • Terraform • Ansible • CloudFormation • Vault
+
+**Containers & Orchestration:** Docker • Kubernetes • Helm • Podman • Istio • Linkerd
+
+**CI/CD & DevOps:** GitHub Actions • GitLab CI • Jenkins • ArgoCD • Tekton • CircleCI
+
+**Security & Compliance:** Trivy • Snyk • SonarQube • OWASP ZAP • Wazuh • Nessus • Qualys
+
+**Red Team & Offensive:** Kali Linux • Metasploit • Burp Suite • Nmap • Hashcat • SQLMap • Gobuster • Hydra
+
+**Blue Team & Defensive:** SIEM • SOAR • EDR/XDR • ELK Stack • Grafana • Prometheus • Splunk
+
+### 🏛️ GRC Expertise
+
+| Governance | Risk Management | Compliance |
+|:---:|:---:|:---:|
+| Security Policies & Standards | Risk Assessment & Modeling | ISO 27001/27002 |
+| Security Architecture | Threat Modeling | NIST CSF/800-53 |
+| Board Reporting | Business Impact Analysis | SOC 2 Type II |
+| Strategic Planning | Risk Monitoring | PCI-DSS / GDPR / HIPAA |
+
+**Compliance Frameworks:** ISO 27001 • NIST CSF • SOC 2 • PCI-DSS • GDPR • HIPAA • CIS Controls • COBIT • ITIL • TOGAF
 
 ---
 
@@ -227,7 +287,7 @@ Maintaining peak physical health is part of taking care of the Amanah Allah has 
 
 ### 🎨 Creative & Personal Interests
 
-- 🍳 Enjoys experimenting with fusion cooking occasionally
+- 🍳 Self-proclaimed master of Kuwaiti/Pakistani fusion cuisine
 - ☕ Coffee enthusiast — appreciates good coffee while coding
 - 🎮 Strategic video games — enjoys problem-solving games
 - 🎬 Quality cinema and documentaries — science, history, technology
@@ -252,6 +312,123 @@ Maintaining peak physical health is part of taking care of the Amanah Allah has 
 3. 💪 Physical fitness and sports
 4. 📚 Reading and intellectual growth
 5. 🎯 Personal projects and innovation
+
+---
+
+## 👑 LORE OF MONARCH MAT
+
+> *"I WILL BE THE VERY BEST, LIKE NO ONE EVER WAS!"*
+
+### The Creed
+
+- 🎭 **Claim it. Then make it true.** — Conceive. Believe. Achieve.
+- ⚔️ **Iron Sharpens Iron** — Our flaws can make or break us
+- 🦁 **Conquer yourself, then the WORLD** 🌍
+- 🚀 **Levelling UP!** — Always ascending
+- ☝🏻 **Jack of All Trades, Master of One**
+
+### The Journey of Self
+
+```
+🔍 Self Discovery
+      ⬇️
+🔗 Self Discipline
+      ⬇️
+👑 Self Mastery
+```
+
+### Mottos & Mantras
+
+- 🕊️ **Si Vis Pacem, Para Bellum** — "If you want peace, prepare for war"
+- 🛡️ **Invictus Maneo** — "I remain unconquerable"
+- 🚀 **Ikigai + Kaizen** — Find your purpose. Improve every single day.
+- ✨ "Don't pray for an easy life — pray for the strength to live a hard life"
+- 🎯 "I will do it My WAY!"
+
+> *"Brilliant minds rebel against control... but respond beautifully to purpose."* — Zeeshan Sami Khan
+
+### Identity
+
+**One of a Kind • Unmatched • Unparalleled**
+
+Uncrowned Monarch • Uncrowned QOXMONAUT • Uncrowned Golden Kubeastronaut
+
+*Consistently Outstanding • Paid to Be Paranoid*
+
+*Creating Innovative Solutions for the World's Most Complex Problems*
+
+> "Some are born great, some achieve greatness, some have greatness thrust upon them — I am all 3."
+
+**#Monarch-_-MAT**
+
+### 💫 What My Grandmother Said About Me
+
+> میرا عبداللہ، جیاں نہ کوئی
+>
+> *"My Abdullah — there is no equal."*
+>
+> — My Grandmother (رحمها الله)
+
+---
+
+## 💻 PROJECTS & INNOVATIONS
+
+### 🎓 Final Year Project — SOCIRIS (2025)
+
+**An AI-Powered IDS/IPS with Intelligent Automated Response capabilities.**
+
+| Component | Description |
+|---|---|
+| 📷 IoT Camera | AI-powered entry/exit monitoring |
+| 🔍 Host Scanning | Wazuh + Nmap via USB (RubberDucky-style) |
+| 🎓 AI Proctoring | For universities and examinations |
+| 📍 Asset Tracking | Traccar integration |
+| 📊 Dashboard | Grafana/Prometheus central view |
+
+**Links:** sociris.com • github.com/sociris
+
+### GitHub Projects (Currently Private — Open-Sourcing Soon)
+
+| Project | Description |
+|---|---|
+| **SENTRIX** | Access Gateway for all sorts of environments |
+| **QROWLER** | Automated web app scanning and QA tool with reporting, scheduling, and alerting |
+| **Phish-Wiz** | Phishing attack campaign simulator — dynamic accounts, failure tracking, and training |
+| **DAD-WIZ** | A wise sage platform providing career, relationship, health, and life guidance |
+| **Full Stack Observability** | End-to-end monitoring: Frontend + Backend + DB + Infra + Finance + GRC |
+| **OMNI-GRC** | Comprehensive Governance, Risk, and Compliance platform |
+| **QOXMOZ** | TBD — cosmic-scale project in the making |
+
+---
+
+## 🌍 VISION & IDEAS
+
+### 🇵🇰 Promise to Pakistan
+
+> *"Prof Abdul Qadeer brought nuclear ☢️ power to Pakistan. I plan to bring Quantum Power to Pakistan 🇵🇰 In Sha Allah."*
+
+**Vision 2047 — 100 Years of Pakistan:** Pakistan is on the rise. With the right people and a push, we can become leaders of the globe. Whichever country cracks quantum computing will lead the future — and I am working on quantum computing.
+
+### Innovation Concepts
+
+| Idea | Description |
+|---|---|
+| **QoXmoz** | Single pane of glass for all monitoring needs — cybersecurity, compliance, performance, vulnerabilities, costing |
+| **Plate-Haven** | Platform for platform engineers to build ideal infrastructure in clicks |
+| **SNIPER Drone** | AI photography drone with audio suggestions, lighting analysis, certified operators ("Snipers") |
+| **X-PARC** | Cybersecurity Noah's Ark for Pakistan — protecting the country's digital infrastructure |
+| **PAK-OS** | Operating system for Pakistani government and professionals |
+| **AI Tutoring & Proctoring** | AI-based system for all Pakistani universities |
+| **Data Banks** | A bank that stores and secures your data — like financial banks for cash |
+| **Arab Solar Farms** | Convert deserts to solar farms — energy, electricity, and Bitcoin mining |
+| **U-Phone** | Truly anonymous phone — private by design, entire ecosystem around privacy |
+| **Wave Energy** | Autonomous energy generation along coastlines and walkways |
+| **Rising Stars Education** | Kindergarten to PhD + professional certifications system |
+| **Quantum Grid Computing** | Merging quantum computing with grid computing |
+| **Remote-Chef** | WiFi-connected robotic chef for families in different countries |
+| **Brain-GBT** | Neural chip interfaces — future of human-computer interaction |
+| **Adaptive AI** | Autonomous AI that learns and adapts — essentially an artificial human |
+| **Smart Digital Cities** | Complete digital transformation of urban infrastructure |
 
 ---
 
@@ -372,6 +549,123 @@ I'm looking for a **partner, not just a spouse** — someone who:
 
 ---
 
+## 💎 DETAILED QUALITIES I SEEK IN MY WIFE
+
+### Essential — Deen (Religious Foundation)
+
+- 🤲 **Akhlaaq** — Excellent character and manners
+- 📖 **Ilm n Amal** — Islamic knowledge and its practice in daily life
+- 🔐 **Amanat Daar** — Trustworthy and reliable
+- 📚 **Deen ka Ilm** — Sound knowledge of Quran, Hadith, Fiqh
+- 🕌 **Hafiza or Quranic Connection** — Ideally a Hafiza or has deep connection with the Quran
+- 🕊️ **Practice of Deen** — Regular in prayers, modest dress, Islamic lifestyle
+- 📢 **Tableegh Connection** — Involvement or support for dawah work (preferably)
+
+### Character & Conduct
+
+- ✅ **Imandaar** — Honest and truthful
+- ✅ **Sabr** — Patient and composed
+- ✅ **Shukar** — Grateful and content
+- ✅ **Maaf karna** — Forgiving nature
+- ✅ **Jhoot na bolay** — Does not lie
+- ✅ **Husband ki izzat** — Respects and honors husband
+- ✅ **Maan baap ki izzat** — Respects parents (hers and ours)
+- ✅ **Gharibon ki madad** — Compassionate toward the poor and needy
+
+### Family Background
+
+- Educated and religious family with strong Islamic values
+- Equal or better family standards in deen, education, and tarbiyah
+- Common life objectives — shared vision for dunya and aakhirah
+- From Karachi or willing to settle in Karachi
+- Compatible lifestyle and environment
+
+### Personal Attributes
+
+- Educated — good academic/Islamic education background
+- Healthy — physically and mentally sound
+- Good home management skills
+- Children's tarbiyah ability — can raise children with Islamic values
+- Adaptable — can maintain religious and professional standards
+
+### Future Compatibility
+
+Shared vision for Aakhirah • Long-term compatibility (20-25+ years) • Adaptable and growth-oriented
+
+---
+
+## ❓ QUESTIONS FOR MY FUTURE WIFE
+
+*To be asked conversationally — not as an interrogation. The goal is to understand alignment in deen, practice, values, and life objectives.*
+
+### About Her Family Background
+1. Tell us about your parents — education, profession, and involvement in deen.
+2. Tell us about your siblings — education, professions, and religious practice.
+3. Tell us about your maternal and paternal family.
+4. What is your family's connection with Islamic work and tableegh?
+5. Which Islamic Fiqh does your family follow?
+6. Where has your family lived, and what has been your lifestyle?
+
+### Religious Knowledge & Practice
+7. What Islamic education have you completed?
+8. Have you studied any Islamic texts?
+9. Where and from whom have you studied deen?
+10. Are you Hafiza? How much Quran have you memorized?
+11. What is your daily routine regarding prayers, Quran, and dhikr?
+12. Do you have any Islamic teaching experience?
+13. What Islamic scholars have influenced you most?
+14. How do you continue your Islamic education now?
+
+### Character & Values
+15. What do you consider the most important qualities in a husband?
+16. What are your strengths and weaknesses in terms of character?
+17. How do you handle disagreements or difficult situations?
+18. What does sabr (patience) mean to you in daily life?
+19. How do you practice shukr (gratitude)?
+20. What role do you see yourself playing in serving the community?
+21. How important is forgiveness in relationships for you?
+
+### About Marriage & Family Life
+22. What are your expectations from marriage and your future husband?
+23. What qualities and values do you want to see in your husband?
+24. What kind of household environment do you want to create?
+25. How do you envision raising children with Islamic tarbiyah?
+26. What role do you see for yourself as a wife and mother?
+27. How will you balance deen and dunya in married life?
+28. What are your views on respecting and caring for in-laws?
+
+### Education & Skills
+29. What is your academic/professional education?
+30. What skills do you have (cooking, teaching, etc.)?
+31. Do you have any professional qualifications or work experience?
+32. Are you interested in continuing education after marriage?
+33. What are your hobbies and interests?
+
+### Future Plans & Expectations
+34. Where do you want to live after marriage?
+35. Are you willing to live in Karachi?
+36. What are your long-term goals for deen and dunya?
+37. What is your vision for the next 20-25 years?
+38. Do you want to be involved in dawah/tableegh work?
+39. How do you see yourself growing in deen throughout life?
+
+### Practical Matters
+40. When would you like to marry (timeline)?
+41. Where would you prefer to have the nikah ceremony?
+42. What are your expectations regarding mahr?
+43. What are your views on simplicity vs. elaborate functions?
+
+### Compatibility & Final
+44. What does an ideal day in your married life look like?
+45. How do you spend your free time currently?
+46. What are your views on extended family involvement?
+47. How do you define success in marriage?
+48. What are your non-negotiables in marriage?
+49. What questions do you have for me and my family?
+50. Is there anything else you'd like us to know about you?
+
+---
+
 ## 📞 NEXT STEPS — How to Proceed
 
 ### 1️⃣ Family Communication
@@ -403,6 +697,8 @@ Every credential mentioned in this biodata is **independently verifiable**. I be
 | 💻 **GitHub** | [github.com/matx104](https://github.com/matx104) | Technical projects & contributions |
 | 🏆 **Credly** | [credly.com/users/matx104](https://credly.com/users/matx104) | All certifications verified here |
 | 🌐 **All Links** | [linktr.ee/matx104](https://linktr.ee/matx104) | Complete profile directory |
+| 📷 **Instagram** | [instagram.com/matx104](https://instagram.com/matx104) | Personal |
+| 🎥 **YouTube** | [youtube.com/@matx104](https://youtube.com/@matx104) | Technical content |
 
 **Note:** Professional profiles maintained for career purposes — all interactions will be conducted through proper family channels with full Islamic etiquette.
 

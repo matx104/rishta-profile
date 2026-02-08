@@ -153,9 +153,131 @@ function openLightbox(src, alt) {
   document.body.appendChild(overlay);
 }
 
+// ─── Monarch Particle System ───
+function initMonarchParticles() {
+  const canvas = document.getElementById('monarch-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  let w, h, particles, veins;
+  const isDark = () => document.documentElement.getAttribute('data-theme') === 'dark';
+
+  function resize() {
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+  }
+
+  function createParticles() {
+    particles = [];
+    const count = Math.min(Math.floor((w * h) / 18000), 80);
+    for (let i = 0; i < count; i++) {
+      particles.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        r: Math.random() * 2 + 0.5,
+        dx: (Math.random() - 0.5) * 0.3,
+        dy: (Math.random() - 0.5) * 0.3,
+        type: Math.random() < 0.5 ? 'gold' : (Math.random() < 0.5 ? 'silver' : 'emerald'),
+        pulse: Math.random() * Math.PI * 2,
+        pulseSpeed: Math.random() * 0.02 + 0.005
+      });
+    }
+  }
+
+  function createVeins() {
+    veins = [];
+    const veinCount = Math.min(Math.floor(w / 200), 6);
+    for (let i = 0; i < veinCount; i++) {
+      const points = [];
+      const startY = Math.random() * h;
+      let x = -50, y = startY;
+      while (x < w + 50) {
+        points.push({ x, y });
+        x += Math.random() * 80 + 40;
+        y += (Math.random() - 0.5) * 60;
+      }
+      veins.push({
+        points,
+        type: Math.random() < 0.4 ? 'gold' : (Math.random() < 0.5 ? 'silver' : 'obsidian'),
+        width: Math.random() * 1.5 + 0.3,
+        opacity: Math.random() * 0.06 + 0.02,
+        offset: Math.random() * 1000
+      });
+    }
+  }
+
+  function draw(time) {
+    ctx.clearRect(0, 0, w, h);
+    const dark = isDark();
+
+    // Draw veins
+    veins.forEach(v => {
+      const shift = Math.sin(time * 0.0003 + v.offset) * 5;
+      ctx.beginPath();
+      ctx.moveTo(v.points[0].x, v.points[0].y + shift);
+      for (let i = 1; i < v.points.length - 1; i++) {
+        const xc = (v.points[i].x + v.points[i + 1].x) / 2;
+        const yc = (v.points[i].y + v.points[i + 1].y + shift) / 2;
+        ctx.quadraticCurveTo(v.points[i].x, v.points[i].y + shift, xc, yc);
+      }
+      const colors = {
+        gold: dark ? 'rgba(212,175,55,' : 'rgba(180,145,35,',
+        silver: dark ? 'rgba(168,178,188,' : 'rgba(140,150,160,',
+        obsidian: dark ? 'rgba(200,200,200,' : 'rgba(10,10,10,'
+      };
+      ctx.strokeStyle = colors[v.type] + (v.opacity * (0.8 + Math.sin(time * 0.001 + v.offset) * 0.2)) + ')';
+      ctx.lineWidth = v.width;
+      ctx.stroke();
+    });
+
+    // Draw particles
+    particles.forEach(p => {
+      p.x += p.dx;
+      p.y += p.dy;
+      p.pulse += p.pulseSpeed;
+
+      if (p.x < -10) p.x = w + 10;
+      if (p.x > w + 10) p.x = -10;
+      if (p.y < -10) p.y = h + 10;
+      if (p.y > h + 10) p.y = -10;
+
+      const glow = 0.3 + Math.sin(p.pulse) * 0.2;
+      const colors = {
+        gold: dark ? `rgba(212,175,55,${glow})` : `rgba(180,145,35,${glow * 0.5})`,
+        silver: dark ? `rgba(176,184,193,${glow * 0.8})` : `rgba(140,150,160,${glow * 0.4})`,
+        emerald: dark ? `rgba(46,204,113,${glow * 0.7})` : `rgba(15,61,54,${glow * 0.3})`
+      };
+
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r * (0.8 + Math.sin(p.pulse) * 0.2), 0, Math.PI * 2);
+      ctx.fillStyle = colors[p.type];
+      ctx.fill();
+
+      // Glow
+      if (p.r > 1.2) {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r * 3, 0, Math.PI * 2);
+        const glowColor = p.type === 'gold' ? `rgba(212,175,55,${glow * 0.08})` :
+                          p.type === 'silver' ? `rgba(176,184,193,${glow * 0.06})` :
+                          `rgba(46,204,113,${glow * 0.06})`;
+        ctx.fillStyle = glowColor;
+        ctx.fill();
+      }
+    });
+
+    requestAnimationFrame(draw);
+  }
+
+  resize();
+  createParticles();
+  createVeins();
+  requestAnimationFrame(draw);
+  window.addEventListener('resize', () => { resize(); createParticles(); createVeins(); });
+}
+
 // ─── Init ───
 document.addEventListener('DOMContentLoaded', () => {
   initTheme();
+  initMonarchParticles();
   handleRoute();
   initScrollReveal();
 
