@@ -75,7 +75,10 @@ function handleRoute() {
 
 // ─── Mobile Nav Toggle ───
 function toggleMobileNav() {
-  document.querySelector('.nav-links')?.classList.toggle('open');
+  const nav = document.querySelector('.nav-links');
+  const toggle = document.querySelector('.mobile-toggle');
+  const isOpen = nav?.classList.toggle('open');
+  if (toggle) toggle.textContent = isOpen ? '✕' : '☰';
 }
 
 // ─── Scroll Reveal ───
@@ -297,6 +300,13 @@ document.addEventListener('DOMContentLoaded', () => {
     a.addEventListener('click', (e) => {
       e.preventDefault();
       navigateTo(a.getAttribute('data-page'));
+      // Close mobile nav
+      const nav = document.querySelector('.nav-links');
+      const toggle = document.querySelector('.mobile-toggle');
+      if (nav?.classList.contains('open')) {
+        nav.classList.remove('open');
+        if (toggle) toggle.textContent = '☰';
+      }
     });
   });
 
@@ -315,6 +325,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const toggle = document.querySelector('.mobile-toggle');
     if (nav?.classList.contains('open') && !nav.contains(e.target) && !toggle.contains(e.target)) {
       nav.classList.remove('open');
+      if (toggle) toggle.textContent = '☰';
     }
   });
 });
