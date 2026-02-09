@@ -48,71 +48,69 @@ Alhamdulillah, I come from a respected, religious, and family-oriented household
 
 ---
 
-## 🌙 DEEN & SPIRITUAL JOURNEY
+## 🕌 DEEN — Islamic Foundation
 
 > *"وَقُل رَّبِّ زِدْنِي عِلْمًا"*
 > *"And say: My Lord, increase me in knowledge"* — Surah Ta-Ha: 114
 
-### Islamic Education & Practice
+### Qur'anic Journey
 
-**Formal Islamic Credentials:**
-
-- ✅ **Hifz-ul-Qur'an** — Markaz Ul Usman, Khaitan, Kuwait
+- ✅ **Complete Hifz-ul-Qur'an** — 30 Juz, 114 Surahs, 6,236 Ayat — Markaz Ul Usman, Khaitan, Kuwait
 - ✅ **4-Year Islamic Sciences Program** — Dar Ul Quran (Markaz Abdullah Al Mutawwa), Rumaithiyah, Kuwait
   - Comprehensive studies in: Seerah, Tajweed, Hadith, Aqeedah, Fiqh, and Tafseer
 - ✅ **4 Months in Tablighi Jamaat** — Dedicated to Da'wah and community service
 
-### Daily Practice & Character
+### Daily Practice
 
-- 🕌 Regular in Salah and committed to Taraweeh during Ramadan
-- 📖 Strives for consistent Qur'an recitation and reflection
-- 🤲 Active in community service and helping others
-- ⚖️ Committed to maintaining a meaningful balance between Deen and Dunya
-- 💚 Values honesty, humility, self-discipline, and strong family bonds
+- 🕌 **Salah** — Regular in all five daily prayers
+- 📖 **Qur'an Recitation** — Daily companion and reflection
+- 🌙 **Ramadan Taraweeh** — Leading and participating
+- 🤲 **Du'a & Dhikr** — Constant remembrance
+- ⚖️ **Akhlaq** — Striving to embody the character of the Prophet ﷺ
+- 💰 **Halal Earning** — Committed to permissible livelihood
+- 📚 **Continuous Learning** — Never stops seeking Islamic knowledge
 
 ### Core Values
 
-| **In Worship** | **In Character** | **In Relationships** | **In Work** |
-|:---:|:---:|:---:|:---:|
-| Taqwa & Ihsan | Honesty & Integrity | Respect & Compassion | Excellence & Diligence |
-| Consistency | Humility | Communication | Innovation |
-| Gratitude | Self-Discipline | Support & Growth | Responsibility |
+| **In Worship** | **In Character** |
+|:---:|:---:|
+| Taqwa (God-consciousness) | Sidq (Truthfulness) |
+| Ihsan (Excellence) | Amanah (Trustworthiness) |
+| Istiqamah (Consistency) | Hilm (Forbearance) |
+| Shukr (Gratitude) | Tawadu (Humility) |
 
-### Future Spiritual Goals
+### Future Spiritual Aspirations
 
-**Long-term Aspiration (InshaAllah):** To pursue formal Islamic studies in **Madinah Al-Munawwarah** later in life — continuing the journey of lifelong learning in both Deen and Dunya.
+- 🎓 **Islamic Studies in Madinah Al-Munawwarah** — Lifelong dream to pursue formal education
+- 🕋 **Regular Hajj & Umrah** — Spiritual journeys to the Haramain
+- 🌍 **Global Dawah Work** — Contributing to spreading the message of Islam
+- 👨‍👩‍👧‍👦 **Righteous Family** — Build a home centered on Islamic values and continuous growth
 
 ---
 
-## 🎓 EDUCATION & CREDENTIALS
+## 🎓 DUNYA — Worldly Education
 
-### Islamic Education
-
-- 🕌 **Hifz-ul-Qur'an** — Markaz Ul Usman, Khaitan, Kuwait
-- 📚 **4-Year Islamic Sciences Program** — Dar Ul Quran, Rumaithiyah, Kuwait
-  - In-depth study of Qur'anic sciences, Hadith, Fiqh, Aqeedah, and Islamic history
-
-### Professional Education
+### Academic Education
 
 - 🎓 **Bachelor of Science in Cybersecurity** — ILMA University, Karachi
-  - Specialized in Cloud Security, Network Defense, and Security Architecture
-- 🤖 **Diploma in Artificial Intelligence Operations (EduQual Level 6)** — Al Nafi International College
-  - Advanced studies in AI/ML security and automation
+  - Specialization: Cloud Security, Network Defense, Security Architecture
+  - Final Year Project: SOCIRIS — AI-Powered IDS/IPS
+- 🤖 **Diploma in AI Operations (EduQual Level 6)** — Al Nafi International College
+- 📚 **O-Levels** — New Pakistan International School, Hawalli, Kuwait (Sciences)
+- 📚 **Higher Secondary** — ISCP, Khaitan, Kuwait (Commerce)
 
-### Elite Industry Certifications
+### Elite Industry Certifications (60+)
 
-#### 🏆 Premier Global Certifications
+#### 🏆 Gold Standard
 
 **CISSP — Certified Information Systems Security Professional (Associate)**
 - Issued by: (ISC)² — The world's leading cybersecurity certification body
-- Recognition: Equivalent to a Master's degree in Cybersecurity globally
-- Achievement: Among the youngest professionals to achieve this distinction
-- Significance: The gold standard certification recognized by governments, Fortune 500 companies, and security organizations worldwide
+- Achievement: Among the youngest professionals to achieve this distinction (Age 22)
+- Significance: The gold standard certification recognized by governments and Fortune 500 companies
 
 **CCSP — Certified Cloud Security Professional**
 - Issued by: (ISC)²
 - Expertise: Advanced cloud security across AWS, Azure, and Google Cloud
-- Recognition: Premier certification for cloud security architecture
 
 #### ☁️ Multi-Cloud Mastery
 
@@ -122,17 +120,19 @@ Alhamdulillah, I come from a respected, religious, and family-oriented household
 
 **Microsoft Azure Certified:** Azure Administrator, Azure Security Engineer, Azure Fundamentals
 
-#### 📊 Complete Certification Portfolio
+#### 🔐 Security & DevOps
 
-**60+ Professional Certifications** from globally recognized bodies including:
-- (ISC)² — CISSP, CCSP
-- AWS — Multiple Specialty Certifications
-- Google Cloud Platform — Professional Level
-- Microsoft Azure — Associate & Expert Level
-- CompTIA — Security+, Network+, Cloud+
-- And many more...
+- **CompTIA:** Security+, CySA+, PenTest+, Network+, Cloud+, A+, Server+
+- **Docker:** Docker Certified Associate (DCA)
+- **Kubernetes:** Certified Kubernetes Administrator (CKA)
+- **Terraform:** HashiCorp Terraform Associate
+- **GitLab:** GitLab CI/CD Specialist
 
-**Verification:** All certifications are independently verifiable on [Credly](https://credly.com/users/matx104)
+#### 📊 Full Portfolio
+
+**60+ Professional Certifications** across security, cloud, DevOps, networking, and more.
+
+**Verification:** All certifications independently verifiable on [Credly](https://credly.com/users/matx104)
 
 ### 🎯 Certification Roadmap — Future Targets
 
@@ -142,6 +142,12 @@ Alhamdulillah, I come from a respected, religious, and family-oriented household
 | **Offensive Security** | CEH • OSCP • OSWE • GPEN |
 | **Cisco Networking** | CCNA • CCNP Security • CCIE Security |
 | **Cloud Security** | AWS Security Specialty • Azure Security Engineer • GCP Security Engineer • CKS |
+
+### Continuous Learning
+
+- 📚 **50+ Books** read across strategy, philosophy, leadership, and cybersecurity
+- 🌐 **7 Languages** — Urdu, English, Arabic, German, French, Chinese, Japanese
+- 🔬 **Active Research** — Quantum computing, zero-trust architecture, AI security
 
 ---
 
@@ -287,11 +293,12 @@ Maintaining peak physical health is part of taking care of the Amanah Allah has 
 
 ### 🎨 Creative & Personal Interests
 
-- 🍳 Self-proclaimed master of Kuwaiti/Pakistani fusion cuisine
-- ☕ Coffee enthusiast — appreciates good coffee while coding
-- 🎮 Strategic video games — enjoys problem-solving games
-- 🎬 Quality cinema and documentaries — science, history, technology
-- 📺 Anime & storytelling — values lessons in great narratives: the equivalent exchange philosophy of Fullmetal Alchemist, the never-give-up spirit of Naruto, the pursuit of dreams in One Piece
+- 🍳 **Kuwaiti-Pakistani Fusion Cooking** — Self-proclaimed master of blending two rich culinary traditions
+- ☕ **Coffee Enthusiast** — Appreciates good coffee while coding
+- 🎮 **Gaming** — God of War, Assassin's Creed, The Last of Us, Uncharted, Spider-Man, Ghost of Tsushima, Tekken, FIFA
+- 🎬 **Cinema** — Nolan films, Peaky Blinders, Breaking Bad, MCU, DCEU, and more
+- 📺 **Anime & Manga** — Dragon Ball, Naruto, One Piece, Jujutsu Kaisen, Solo Leveling, Attack on Titan, Death Note, and many more
+- 🐍 **Harry Potter** — Slytherin house, Eagle patronus, Acacia wand
 
 ### 🌟 Personal Philosophy & Growth Mindset
 
@@ -371,6 +378,109 @@ Uncrowned Monarch • Uncrowned QOXMONAUT • Uncrowned Golden Kubeastronaut
 
 ---
 
+## ⚔️ THE REALM — Stories That Forged Who I Am
+
+> *The lessons, characters, and worlds that shaped my thinking, philosophy, and drive.*
+
+### 🐉 Anime & Manga
+
+| Series | Lessons Learned |
+|---|---|
+| **Dragon Ball** | Hard work, persistence, always growing — never settle for current strength |
+| **Naruto** | Believe in yourself, hard work beats talent, bonds matter, find your Nindo |
+| **One Piece** | Unwavering conviction, loyalty, freedom to chase dreams, Nakama |
+| **Fullmetal Alchemist** | Equivalent Exchange — nothing is free, sacrifice and brotherhood |
+| **Death Note** | Intelligence is the ultimate weapon, but hubris is the downfall |
+| **Demon Slayer** | Family bonds, compassion is strength |
+| **Jujutsu Kaisen** | Self-belief — "Throughout heavens and earth, I alone am the honoured one" |
+| **Solo Leveling** | Continuous growth — "I was the one who chose to level up" |
+| **Attack on Titan** | Fighting for freedom — "Shinzou Sasageyo" |
+| **Avatar: The Last Airbender** | Balance, duty, wisdom from many places |
+| **Pokémon** | Be the very best, collect skills, earn badges, never stop |
+| **Digimon** | Teamwork, bonds amplify power, evolve together |
+
+### 🎮 Games
+
+| Game | Philosophy |
+|---|---|
+| **God of War** | Redemption, fatherhood — "Do not be sorry. Be better." |
+| **Uncharted** | Exploration, thinking on your feet — "Sic Parvis Magna" |
+| **The Last of Us** | Love makes you vulnerable & invincible — "Endure and survive" |
+| **The Witcher** | Moral complexity, lesser evil — "Evil is evil" |
+| **Assassin's Creed** | "Nothing is true, everything is permitted" — "We work in the dark to serve the light" |
+| **Spider-Man** | "With great power comes great responsibility" |
+| **Ghost of Tsushima** | Honour vs pragmatism, samurai spirit |
+| **Tomb Raider** | Relentless curiosity, intellect & grit over brute force |
+| **Tekken, Street Fighter** | Read opponent, adapt, execute |
+| **FIFA, UFC** | Teamwork, tactics, clutch moments |
+
+### 🎬 Movies & TV
+
+- 🦇 **Dark Knight Trilogy** — Rising after falling: "It's not who I am underneath, but what I do that defines me"
+- 🧪 **Breaking Bad** — Transformation and ambition: "I am the one who knocks"
+- 🎩 **Peaky Blinders** — Strategic brilliance and family loyalty
+- ⚔️ **300** — Spartan courage: "Come back with your shield — or on it"
+- 🏜️ **Dune** — Destiny and leadership: "Fear is the mind-killer"
+- 🎬 **MCU & DCEU** — Iron Man, Batman, Spider-Man, Black Panther, Doctor Strange
+- 🎥 **Others** — Game of Thrones, Stranger Things, The Mandalorian, Inception, Interstellar, The Matrix, John Wick, Gladiator, Top Gun, Oppenheimer
+
+### 📚 Books & Literature
+
+**Warrior Philosophy:**
+- 🗡️ Book of Five Rings (Miyamoto Musashi)
+- ⚔️ The Art of War (Sun Tzu)
+- 💪 Extreme Ownership (Jocko Willink)
+- 🧘 Meditations (Marcus Aurelius)
+- 👑 48 Laws of Power (Robert Greene)
+
+**Mindset & Growth:**
+- 📖 The Qur'an & Hadith — Daily companion and ultimate guidance
+- ⚛️ Atomic Habits (James Clear)
+- 💰 Rich Dad Poor Dad (Robert Kiyosaki)
+- 🧠 Think and Grow Rich (Napoleon Hill)
+- 🌍 Sapiens (Yuval Noah Harari)
+
+**Epic Fantasy:** Lord of the Rings & The Hobbit (Tolkien) • Dune (Herbert) • A Song of Ice and Fire (GRRM) • Twilight Saga
+
+**YA Dystopia:** The Hunger Games • The Maze Runner • Divergent • Lorien Legacies
+
+**More on the Shelf:** E.L. James • K.A. Knight • Brandon Sanderson • Patrick Rothfuss • Joe Abercrombie • Robin Hobb • Brent Weeks • V.E. Schwab
+
+### 🐍 Hogwarts Profile
+
+| | |
+|---|---|
+| **House** | Slytherin — Pride, Ambition, Cunning, Resourcefulness, Leadership |
+| **Patronus** | Eagle 🦅 — Swift and mighty, sees what others miss, strikes with precision |
+| **Wand** | Acacia wood, Unicorn hair core, 14 inches, Quite bendy |
+| **Wand Note** | Acacia refuses to produce magic for any but the most gifted |
+
+> *"It does not do to dwell on dreams and forget to live."* — Albus Dumbledore
+
+### 🎭 Characters I Resonate With
+
+| Character | Why |
+|---|---|
+| **Vegeta** | Pride that never breaks, earned respect through relentless effort |
+| **Goku** | Pure heart, limitless growth, fights for what matters |
+| **Broly** | Untamed power with a gentle soul underneath |
+| **Itachi Uchiha** | Sacrifice in silence, strength through pain |
+| **Kakashi Hatake** | The cool genius who carries deep loyalty |
+| **Rock Lee** | Hard work defeats natural talent — every single time |
+| **Zoro** | Unbreakable loyalty, relentless pursuit of mastery |
+| **Uncle Iroh** | Wisdom, warmth, drawing from many places |
+| **L Lawliet** | Genius, eccentricity, unconventional thinking |
+| **Levi Ackerman** | Humanity's strongest — duty above everything |
+| **Eren Yeager** | The relentless pursuit of freedom |
+| **Erwin Smith** | Leadership, sacrifice, charging forward |
+| **Kratos** | Redemption, fatherhood, becoming better |
+| **Joel** | Love makes you do anything to protect what matters |
+| **Gellert Grindelwald** | Vision, ruthless ambition, "for the greater good" |
+| **Tom Riddle** | Brilliance, charisma, and dark ambition |
+| **Thomas Shelby** | Strategic mind, empire builder, family first |
+
+---
+
 ## 💻 PROJECTS & INNOVATIONS
 
 ### 🎓 Final Year Project — SOCIRIS (2025)
@@ -398,6 +508,7 @@ Uncrowned Monarch • Uncrowned QOXMONAUT • Uncrowned Golden Kubeastronaut
 | **Full Stack Observability** | End-to-end monitoring: Frontend + Backend + DB + Infra + Finance + GRC |
 | **OMNI-GRC** | Comprehensive Governance, Risk, and Compliance platform |
 | **QOXMOZ** | TBD — cosmic-scale project in the making |
+| **More Coming Soon** | Always building, always innovating |
 
 ---
 
@@ -460,7 +571,7 @@ Uncrowned Monarch • Uncrowned QOXMONAUT • Uncrowned Golden Kubeastronaut
 
 ---
 
-## 💑 LOOKING FOR — The Partner I Seek
+## 💑 NASEEB — The Partner I Seek
 
 > *"And among His signs is that He created for you spouses from among yourselves so that you may find comfort in them. And He has placed between you compassion and mercy."* — Surah Ar-Rum: 21
 
