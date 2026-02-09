@@ -21,7 +21,7 @@ function updateThemeIcon(theme) {
 }
 
 // ─── SPA Router ───
-const pages = ['home', 'about', 'deen', 'dunya', 'career', 'personality', 'philosophy', 'projects', 'vision', 'naseeb', 'qualities', 'questions', 'gallery', 'contact'];
+const pages = ['home', 'about', 'deen', 'dunya', 'career', 'personality', 'philosophy', 'realm', 'projects', 'vision', 'naseeb', 'qualities', 'questions', 'gallery', 'contact'];
 
 function navigateTo(page) {
   // Hide all pages
@@ -56,6 +56,7 @@ function navigateTo(page) {
     'career': 'Career — Muhammad Abdullah Tariq',
     'personality': 'Personality — Muhammad Abdullah Tariq',
     'philosophy': 'Philosophy — Muhammad Abdullah Tariq',
+    'realm': 'Realm — Muhammad Abdullah Tariq',
     'projects': 'Projects — Muhammad Abdullah Tariq',
     'vision': 'Vision — Muhammad Abdullah Tariq',
     'naseeb': 'Naseeb — Muhammad Abdullah Tariq',
@@ -117,34 +118,41 @@ function loadGallery() {
   const extensions = ['jpeg', 'jpg', 'png', 'webp'];
   const maxPhotos = 50;
   let loaded = 0;
+  let checked = 0;
+  const found = new Set();
 
   grid.innerHTML = '';
 
   for (let i = 1; i <= maxPhotos; i++) {
     for (const ext of extensions) {
+      const num = i;
       const img = new Image();
-      const src = `photos/${i}.${ext}`;
+      const src = `photos/${num}.${ext}`;
       img.src = src;
-      img.alt = `Photo ${i}`;
-      img.loading = 'lazy';
-      img.className = 'gallery-item';
       img.onload = () => {
+        if (found.has(num)) return; // skip duplicate extensions for same number
+        found.add(num);
+        img.alt = `Photo ${num}`;
+        img.className = 'gallery-item';
+        img.style.cursor = 'pointer';
         grid.appendChild(img);
         loaded++;
         empty.style.display = 'none';
         img.addEventListener('click', () => openLightbox(img.src, img.alt));
       };
-      // Only try one extension per number (first one that loads wins)
-      img.onerror = () => {};
+      img.onerror = () => {
+        checked++;
+        if (checked >= maxPhotos * extensions.length && loaded === 0) {
+          empty.style.display = 'block';
+        }
+      };
     }
   }
 
-  // Show empty message if no photos loaded after a short delay
+  // Fallback timeout
   setTimeout(() => {
-    if (loaded === 0) {
-      empty.style.display = 'block';
-    }
-  }, 1500);
+    if (loaded === 0) empty.style.display = 'block';
+  }, 3000);
 }
 
 function openLightbox(src, alt) {
