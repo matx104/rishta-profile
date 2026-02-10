@@ -492,6 +492,7 @@ Uncrowned Monarch • Uncrowned QOXMONAUT • Uncrowned Golden Kubeastronaut
 | **Madara Uchiha** | Power and legacy — "Wake up to reality," a will that transcended death |
 | **Hashirama Senju** | Vision and heart — God of Shinobi, unmatched power with compassion |
 | **King Barou** | The King's ego — raw dominance, unshakeable self-belief on the pitch |
+| **John Smith (Number Four)** | Legacy and sacrifice — fighting for a world that isn't his, "I am Number Four" |
 
 ---
 
