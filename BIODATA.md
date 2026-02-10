@@ -828,6 +828,18 @@ Every credential mentioned in this biodata is **independently verifiable**. I be
 
 **Note:** Professional profiles maintained for career purposes — all interactions will be conducted through proper family channels with full Islamic etiquette.
 
+### 📋 References
+
+People who know me well and can speak to my character, values, and conduct.
+
+| Name | Relationship | Location | Contact |
+|:---|:---|:---|:---|
+| **Yaseen Patel Sahab** | Family Friend | Karachi, Pakistan | +92 334 189 1908 |
+| **Fahad Habeeb** | Close Friend | Salmiya, Kuwait | +965 6629 0019 |
+| **Muhammad Faisal** | Family Friend (Mentor) | Markham, Canada | +1 647 680 1508 |
+
+*Please reach out with respect and during reasonable hours for the respective time zone.*
+
 ---
 
 <div align="center">

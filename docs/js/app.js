@@ -1,3 +1,75 @@
+// ─── Share Modal ───
+const SHARE_URL = 'https://matx104.github.io/rishta-profile/';
+const SHARE_LINKS = '\n🌐 Profile: https://matx104.github.io/rishta-profile/\n💼 LinkedIn: https://linkedin.com/in/matx104\n💻 GitHub: https://github.com/matx104\n🏆 Certifications: https://credly.com/users/matx104\n🔗 All Links: https://linktr.ee/matx104';
+const SHARE_DUA = '\n\nJazakAllahu Khairan.\nMay Allah guide us all to what is best. Ameen. 🤲';
+
+const SHARE_MSGS = {
+  whatsapp: {
+    formal: `Assalamu Alaikum wa Rahmatullahi wa Barakatuh,\n\nWe would like to share the Rishta profile of Muhammad Abdullah Tariq.\n\nHe is a Hafiz-ul-Qur'an, CISSP-certified Multi-Cloud Security Architect with 60+ global certifications and 6+ years of enterprise experience. He comes from a respected, religious, and family-oriented household in Karachi.\n\nPlease view his full profile and verify credentials here:${SHARE_LINKS}${SHARE_DUA}`,
+    casual: `Assalamu Alaikum! 👋\n\nCheck out Muhammad Abdullah Tariq's Rishta Profile — Hafiz-ul-Qur'an, CISSP, Cloud Security Architect, 60+ certs, speaks 7 languages, and much more.${SHARE_LINKS}${SHARE_DUA}`
+  },
+  telegram: {
+    formal: `Assalamu Alaikum wa Rahmatullahi wa Barakatuh,\n\nSharing the Rishta profile of Muhammad Abdullah Tariq — Hafiz-ul-Qur'an, CISSP & CCSP certified, Lead CloudOps Manager with 60+ certifications across AWS, GCP, and Azure. Based in Karachi, Pakistan.${SHARE_LINKS}${SHARE_DUA}`,
+    casual: `Assalamu Alaikum! 👋\n\nHave a look at Muhammad Abdullah Tariq's profile — Hafiz, CISSP, Cloud Security Architect, 60+ certs, gamer, anime fan, speaks 7 languages. The full package 💪${SHARE_LINKS}${SHARE_DUA}`
+  },
+  sms: {
+    formal: `Assalamu Alaikum wa Rahmatullahi wa Barakatuh. Sharing Rishta profile of Muhammad Abdullah Tariq — Hafiz-ul-Qur'an, CISSP, Multi-Cloud Security Architect (60+ certs). Karachi-based, respected family.${SHARE_LINKS}${SHARE_DUA}`,
+    casual: `Assalamu Alaikum! Check out Muhammad Abdullah Tariq's rishta profile — Hafiz, CISSP, Cloud Security, 60+ certs and much more.${SHARE_LINKS}${SHARE_DUA}`
+  },
+  email: {
+    formal: {
+      subject: 'Rishta Profile — Muhammad Abdullah Tariq (Hafiz-ul-Qur\'an, CISSP)',
+      body: `Assalamu Alaikum wa Rahmatullahi wa Barakatuh,\n\nI hope this message finds you in the best of health and Imaan.\n\nI would like to share with you the Rishta Biodata of Muhammad Abdullah Tariq.\n\nAbout him:\n• Hafiz-ul-Qur'an with 4 years of Islamic Sciences education\n• CISSP & CCSP certified Multi-Cloud Security Architect\n• 60+ global certifications (AWS, GCP, Azure, CompTIA, and more)\n• 6+ years of enterprise experience\n• Eldest of 4 brothers, from a respected family in Karachi\n\nFull Interactive Profile & Verification:${SHARE_LINKS}${SHARE_DUA}`
+    },
+    casual: {
+      subject: 'Check out this profile! — Muhammad Abdullah Tariq',
+      body: `Assalamu Alaikum! 👋\n\nWanted to share Muhammad Abdullah Tariq's rishta profile with you — Hafiz-ul-Qur'an, CISSP, Cloud Security Architect with 60+ certs, speaks 7 languages, into anime, gaming, sports, and more.\n\nHave a look:${SHARE_LINKS}${SHARE_DUA}`
+    }
+  }
+};
+
+function openShareModal() {
+  const overlay = document.getElementById('share-overlay');
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeShareModal() {
+  document.getElementById('share-overlay').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function shareVia(platform, tone) {
+  if (platform === 'email') {
+    const msg = SHARE_MSGS.email[tone];
+    window.location.href = `mailto:?subject=${encodeURIComponent(msg.subject)}&body=${encodeURIComponent(msg.body)}`;
+  } else if (platform === 'whatsapp') {
+    window.open(`https://wa.me/?text=${encodeURIComponent(SHARE_MSGS.whatsapp[tone])}`, '_blank');
+  } else if (platform === 'telegram') {
+    window.open(`https://t.me/share/url?url=${encodeURIComponent(SHARE_URL)}&text=${encodeURIComponent(SHARE_MSGS.telegram[tone])}`, '_blank');
+  } else if (platform === 'sms') {
+    window.location.href = `sms:?body=${encodeURIComponent(SHARE_MSGS.sms[tone])}`;
+  }
+}
+
+function copyShareLink() {
+  navigator.clipboard.writeText(SHARE_URL).then(() => {
+    const label = document.getElementById('copy-label');
+    label.textContent = 'Copied!';
+    setTimeout(() => { label.textContent = 'Copy Link'; }, 2000);
+  }).catch(() => {
+    const ta = document.createElement('textarea');
+    ta.value = SHARE_URL;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    const label = document.getElementById('copy-label');
+    label.textContent = 'Copied!';
+    setTimeout(() => { label.textContent = 'Copy Link'; }, 2000);
+  });
+}
+
 // ─── Theme Toggle ───
 function initTheme() {
   const saved = localStorage.getItem('theme');
