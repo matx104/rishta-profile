@@ -478,6 +478,20 @@ Uncrowned Monarch • Uncrowned QOXMONAUT • Uncrowned Golden Kubeastronaut
 | **Gellert Grindelwald** | Vision, ruthless ambition, "for the greater good" |
 | **Tom Riddle** | Brilliance, charisma, and dark ambition |
 | **Thomas Shelby** | Strategic mind, empire builder, family first |
+| **Mufasa** | Legacy, wisdom, true leadership is service — "Remember who you are" |
+| **Scar** | Cunning and ambition — brilliance without honour devours itself |
+| **Guts** | Relentless will — broken by betrayal, forged by suffering, never stops |
+| **Griffith** | Dream and sacrifice — the cost of ambition without boundaries |
+| **Sasuke Uchiha** | Pride, rivalry, redemption through darkness |
+| **Gaara** | From monster to leader — chose love over hatred, became his people's shield |
+| **Obito Uchiha** | Shattered ideals, cautionary tale of lost hope, and final-hour redemption |
+| **Sung Jin-Woo** | The ultimate self-made rise — from weakest to Shadow Monarch |
+| **Aladdin** | Diamond in the rough — street-smart, resourceful, greatness uncovered |
+| **Gojo Satoru** | The strongest — untouchable confidence, "I alone am the honoured one" |
+| **Ryomen Sukuna** | Absolute dominance — the King of Curses, raw unmatched supremacy |
+| **Madara Uchiha** | Power and legacy — "Wake up to reality," a will that transcended death |
+| **Hashirama Senju** | Vision and heart — God of Shinobi, unmatched power with compassion |
+| **King Barou** | The King's ego — raw dominance, unshakeable self-belief on the pitch |
 
 ---
 
