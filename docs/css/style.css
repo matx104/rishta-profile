@@ -1417,6 +1417,13 @@ body::after {
   line-height: 1.5;
 }
 
+/* ─── Q&A Answers Styling ─── */
+.qa-list { display: flex; flex-direction: column; gap: 16px; }
+.qa-item { border-left: 3px solid var(--primary); padding-left: 14px; }
+.qa-q { color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 4px; line-height: 1.4; }
+.qa-a { color: var(--text-light); font-size: 0.98rem; line-height: 1.6; }
+.qa-a a { text-decoration: underline; }
+
 .project-featured {
   border-left: 4px solid var(--accent);
   box-shadow: var(--shadow), -4px 0 20px rgba(212,175,55,0.1);

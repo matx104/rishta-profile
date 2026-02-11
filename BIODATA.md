@@ -792,6 +792,118 @@ Shared vision for Aakhirah • Long-term compatibility (20-25+ years) • Adapta
 
 ---
 
+## 📝 MY ANSWERS — Leading by Example
+
+*I ask these questions, so it is only fair I answer them first.*
+
+### Family Background
+
+**1. Parents:** My father (رحمه الله) was an MBA graduate from IBA Karachi, a CISA auditor, and Lead IT Auditor for a multinational in Kuwait's oil industry. He also taught at IBA. He passed away on July 17th 2022 — his legacy lives on at [matx104.github.io/legacy-of-tariq-mahmood-sahab](https://matx104.github.io/legacy-of-tariq-mahmood-sahab/). My mother is a top graduate of the first batch of Madrasa Ayesha (Islamic Sciences), a lifelong teacher of Islamic knowledge, active in tableegh, hosting jamaats, and doing nusrah.
+
+**2. Siblings:** Eldest of 4 brothers. #2 graduating BS Cybersecurity, #3 BBA 2nd year, #4 completing A-Levels (IGCSE). Three married sisters: eldest in Karachi (husband: family business), second in Qatar (husband: Lead Data Scientist, MNC), third in UAE (husband: Lead Aeronautical Engineer, Emirates Group).
+
+**3. Maternal & Paternal:** Paternal grandfather (رحمه الله) from Sargodha, Punjab — retired Pakistan Air Force Engineer, passed 2007. Maternal family from Kashmir, Syed family.
+
+**4. Islamic work & tableegh:** Deeply rooted. Mother spent her life in tableegh and Islamic education. Father accompanied her. Hosted jamaats, did nusrah. I spent 4 months in Tablighi Jamaat.
+
+**5. Fiqh:** Sunni Islam, Hanafi Fiqh.
+
+**6. Lifestyle:** 13 years in Kuwait (Salmiya, Khaitan) and 13 years in Pakistan (Karachi). Balanced lifestyle rooted in deen, education, and family values.
+
+### Religious Knowledge & Practice
+
+**7–10.** Complete Hifz-ul-Qur'an (30 Juz). 4-year Islamic Sciences Program (Seerah, Tajweed, Hadith, Aqeedah, Fiqh, Tafseer) from Dar Ul Quran, Kuwait.
+
+**11.** Regular five daily prayers, daily Qur'an recitation and Hifz revision, du'a and dhikr throughout the day.
+
+**12–14.** Teaching through community and dawah work. Influenced by teachers at Dar Ul Quran and my mother. Continuing through daily study and the long-term goal of formal studies in Madinah.
+
+### Character & Values
+
+**15. Most important qualities in a wife:** Loyalty, drive, purpose, mission-oriented, ambition, pride.
+
+**16. Strengths & Weaknesses:** Strengths — quick learner, confident, takes on challenges, gets the job done. Weaknesses — too many interests (sometimes leaves things unfinished), perfectionism, standards higher than normal.
+
+**17. Disagreements:** Conversation. I don't let things fester. Problems solved head-on with gentleness where needed.
+
+**18. Sabr:** Understanding everyone is different and experiences things differently. Patience means understanding instead of enforcing one's worldview.
+
+**19. Shukr:** Eternally grateful daily. Life is worship — living in the service of Allah is shukr itself.
+
+**20. Community role:** Net positive impact. Creative solutions to complex problems, implemented at scale. Making life easier for the Ummah, one individual at a time.
+
+**21. Forgiveness:** Very important but not blind. Forgiveness comes after a lesson is learned. Support and growth is the goal.
+
+### Marriage & Family Life
+
+**22. Expectations:** Marriage is completion — a trust and closeness shared only with one's other half. Pairings are made by Allah.
+
+**23. Qualities:** Loyalty, ambition, drive, purpose, pride. A partner, not a follower.
+
+**24. Household:** Balanced Deen & Dunya. Deen is the single source of truth. Strive to be the best, then pray for success.
+
+**25. Children:** Leading by example — children do what they see. Cultivating excellence in both Deen and Dunya.
+
+**26. Role:** Leading with deen, true partnership, financial security, present father, open communication, continuous growth.
+
+**27. Balance:** Deen guides Dunya. Plan, work hard, trust in Allah's plan (Tawakkul).
+
+**28. In-laws:** Wife's parents treated with same respect as own. Semi-joint family — same community/masjid/neighbourhood, separate houses. Closeness for support, space for peace.
+
+### Education & Skills
+
+**29.** BS Cybersecurity, Diploma AI Operations (Level 6), O-Levels, Higher Secondary. 60+ certifications including CISSP (age 22) and CCSP.
+
+**30.** Kuwaiti-Pakistani fusion cooking, multi-cloud architecture, chess, 9+ sports, 7 languages, technical writing.
+
+**31.** Lead CloudOps Manager & Multi-Cloud DevSecOps Engineer. 6+ years enterprise. 5 production cloud environments.
+
+**32.** Absolutely — pursuing CISA, CISM, OSCP. Long-term: Islamic studies in Madinah. Marriage enhances this journey.
+
+**33.** Football, cricket, gym, boxing, chess, gaming, anime, reading (50+ books), cooking, languages, technology.
+
+### Future Plans & Expectations
+
+**34. Where:** Long-term: Kuwait → Madinah. Short-term: UK/Canada for experience (not permanent). Knowledge returns to Pakistan.
+
+**35.** Yes — Karachi is home and base.
+
+**36.** Everlasting growth. Travel, business, global impact, Islamic studies in Madinah, quantum computing to Pakistan, righteous family.
+
+**37. Vision 20-25 years:** Growth — personal, spiritual, professional, family. Global impact and legacy.
+
+**38.** Yes — learning deen, practicing, preaching. Dawah is how you live.
+
+**39.** Continuous learning, daily practice, seeking knowledge, eventually formal studies in Madinah.
+
+### Practical Matters
+
+**40.** Within 12 months max. Reasonable: 4-6 months.
+
+**41.** Ideally Madinah. Simple and straightforward wherever it happens.
+
+**42.** Bride's decision. Mahr Fatmi as baseline minimum. Her right, legally and religiously binding.
+
+**43.** Simple and standard. Expenses saved spent by the couple. Close family and friends.
+
+### Compatibility & Final
+
+**44. Ideal day:** Fajr together. Qur'an. Productive day pursuing goals. Evening quality time and conversation. Building together every day.
+
+**45. Free time:** Learning or practicing what I've learned. Explorer at heart — logically now, physically someday.
+
+**46.** Semi-joint family. Same community, separate houses. Close for love, separate for peace.
+
+**47. Success:** Sakeenah and happiness together. Children aspiring to the same marriage. Allah's pleasure.
+
+**48. Non-negotiables:** No laziness, no aimless living. Must have goals, ambitions, pride. No followers or yes-men. A partner who stands for something.
+
+**49.** The questions above are mine — I've answered first to lead by example.
+
+**50.** Everything worth knowing is on this site — but it's only the beginning. The real conversation happens in person.
+
+---
+
 ## 📞 NEXT STEPS — How to Proceed
 
 ### 1️⃣ Family Communication
