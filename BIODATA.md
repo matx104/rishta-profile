@@ -798,13 +798,13 @@ Shared vision for Aakhirah • Long-term compatibility (20-25+ years) • Adapta
 
 ### Family Background
 
-**1. Parents:** My father (رحمه الله) was an MBA graduate from IBA Karachi, a CISA auditor, and Lead IT Auditor for a multinational in Kuwait's oil industry. He also taught at IBA. He passed away on July 17th 2022 — his legacy lives on at [matx104.github.io/legacy-of-tariq-mahmood-sahab](https://matx104.github.io/legacy-of-tariq-mahmood-sahab/). My mother is a top graduate of the first batch of Madrasa Ayesha (Islamic Sciences), a lifelong teacher of Islamic knowledge, active in tableegh, hosting jamaats, and doing nusrah.
+**1. Parents:** My father (رحمه الله) was an MBA graduate from IBA Karachi, a CISA auditor, and Lead IT Auditor for a multinational in Kuwait's oil industry. He also taught at IBA. He was deeply active in tableegh — he and my mother traveled in Jamaat internationally to Germany, South Africa, and other countries. In Kuwait, he worked closely with locals and Arabs in dawah efforts. He was also a student at Dar Ul Quran alongside me, studying with Arab students under Arab sheikhs. He passed away on July 17th 2022 — his legacy lives on at [matx104.github.io/legacy-of-tariq-mahmood-sahab](https://matx104.github.io/legacy-of-tariq-mahmood-sahab/). My mother is a top graduate of the first batch of Madrasa Ayesha (Islamic Sciences), a lifelong teacher of Islamic knowledge, active in tableegh, hosting jamaats, and doing nusrah.
 
 **2. Siblings:** Eldest of 4 brothers. #2 graduating BS Cybersecurity, #3 BBA 2nd year, #4 completing A-Levels (IGCSE). Three married sisters: eldest in Karachi (husband: family business), second in Qatar (husband: Lead Data Scientist, MNC), third in UAE (husband: Lead Aeronautical Engineer, Emirates Group).
 
 **3. Maternal & Paternal:** Paternal grandfather (رحمه الله) from Sargodha, Punjab — retired Pakistan Air Force Engineer, passed 2007. Maternal family from Kashmir, Syed family.
 
-**4. Islamic work & tableegh:** Deeply rooted. Mother spent her life in tableegh and Islamic education. Father accompanied her. Hosted jamaats, did nusrah. I spent 4 months in Tablighi Jamaat.
+**4. Islamic work & tableegh:** Deeply rooted. Parents traveled in Tablighi Jamaat internationally — Germany, South Africa, and other countries. Hosted jamaats, did nusrah. Father very active in Kuwait with locals and Arabs. They instilled this in us — 40 days with father and brothers (2016), 40 days with brothers (2018), 4 months solo (2019). Currently active in local efforts, planning 40 days after convocation.
 
 **5. Fiqh:** Sunni Islam, Hanafi Fiqh.
 
@@ -816,7 +816,7 @@ Shared vision for Aakhirah • Long-term compatibility (20-25+ years) • Adapta
 
 **11.** Regular five daily prayers, daily Qur'an recitation and Hifz revision, du'a and dhikr throughout the day.
 
-**12–14.** Teaching through community and dawah work. Influenced by teachers at Dar Ul Quran and my mother. Continuing through daily study and the long-term goal of formal studies in Madinah.
+**12–14.** Teaching through community and dawah work — 40 days twice, 4 months once. Currently active in local efforts. Influenced by Arab sheikhs at Dar Ul Quran (studied alongside father), Mufti Menk, Sheikh Ahmed Deedat (رحمه الله), Nouman Ali Khan, Omar Suleiman, and my mother. Continuing through daily study, listening to scholars, local tableegh, and the long-term goal of formal studies in Madinah.
 
 ### Character & Values
 
